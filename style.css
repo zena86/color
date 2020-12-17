@@ -12,38 +12,21 @@ body {
 	max-width: 1024px;
 	margin: 0 auto;
 }
+.test1280 {
+	max-width: 1280px;
+	margin: 0 auto;
+	border: 3px solid green;
+	background-image: url(images/picBig.png);
+	background-repeat: no-repeat;
+	background-position: cover;
+}
 .main-screen {
 	background-color: #f74c55;
 	background-image: url(images/picSmall.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.main-screen__inner	{
-/*	background-color: deeppink;*/
-	position: relative;
-}
 
-
-/*
-.header__pic {
-	position: relative;
-	width: 600px;
-	height: 600px;
-	z-index: 5;
-}
-*/
-.header__img {
-	position: absolute;
-	top: 0;
-	left: -37%;
-	z-index: 10;
-/*
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: center;
-*/
-}
 
 .header__body {
 	position: relative;
@@ -82,7 +65,7 @@ body {
 	font-weight: 700;
 }
 .main-screen__content {
-	padding: 6.77vw 15px 8.07vw;
+	padding: 5.5vw 15px 7.5vw;
 /*	background-color: pink;*/
 	max-width: 300px;
 	margin-left: 55%;
