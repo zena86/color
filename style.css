@@ -12,27 +12,28 @@ body {
 	max-width: 1024px;
 	margin: 0 auto;
 }
-.test1280 {
-	max-width: 1280px;
-	margin: 0 auto;
-	border: 3px solid green;
-	background-image: url(images/picBig.png);
-	background-repeat: no-repeat;
-	background-position: cover;
-}
 .main-screen {
+	position: relative;
 	background-color: #f74c55;
 	background-image: url(images/picSmall.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-
-
+.header__bg1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(images/picBig.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 .header__body {
 	position: relative;
 	z-index: 10;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	padding: 15px 0;
 /*	background-color: orange;*/
@@ -41,11 +42,9 @@ body {
     font-family: "SusaLight", fantasy;
     font-size: 50px;
 	text-decoration: none;
-/*
     position: absolute;
     left: 132px;
     top: 13px;
-*/
     color: white;
 }
 .header__menu ul{
@@ -65,6 +64,8 @@ body {
 	font-weight: 700;
 }
 .main-screen__content {
+	position: relative;
+	z-index: 5;
 	padding: 5.5vw 15px 7.5vw;
 /*	background-color: pink;*/
 	max-width: 300px;
