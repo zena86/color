@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*.clearfloat:after {
+    content: "";
+    display: block;
+    clear: both;
+}*/ /*от схлопывания контейнера с флоатами*/
+
+.allContent {
+   min-width: 800px; 
+}
+/*HEADER*/
+header {
+    background-color: #f74c55;
+    color: white;
+    height: 497px;
+    background-image: url(images/picBig.png);
+    background-repeat: no-repeat; 
+}
+.logo {
+    font-family: "SusaLight", fantasy;
+    font-size: 50px;
+    position: absolute;
+    left: 132px;
+    top: 13px;
+    color: white;
+}
+.title {
+    float: right;
+    background-image: url(images/picSmall.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;    
+    height: 497px;
+    width: 60%;
+}
+nav {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;    
+}
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline;    
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 16px;
+    
+}
+nav ul li a:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #fb636b;
+    border-radius: 5px;
+}
+.nameSite {
+    font-family: "Myriad Pro", sans-serif;
+    margin: 150px 25% 0;
+}
+h1 {
+    font-size: 40px; 
+}
+h2 {
+    font-size: 16px;
+    font-weight:100;
+    margin: 10px 0 20px;
+}
+#buttonTitle {
+    font-family: "OpenSans", sans-serif;
+    font-size: 24px;
+    font-weight:bold;
+    color: white;
+    background-color: #f74c55;
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+#buttonTitle:hover {
+    background-color: #fb636b;
+}
+/*SectionThereAre*/
+
+.secThereAre {
+    font-family: "Myriad Pro", sans-serif;
+    width: 65%;
+    margin: 90px auto;
+    
+}
+section>h2 {
+    font-size: 30px;
+}
+section>p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 85px;
+}
+div[class^="rectangle"] {
+    width: 36px;
+    height: 32px;
+    display: table-cell;
+}
+.palitra {
+    display: table-row;
+}
+.rectangleOrange {
+    background-color: #ee732f; 
+}
+.rectangleDarkRed {
+    background-color: #f74c55;
+}
+.rectangleGreen {
+    background-color: #2d5f3b;
+}
+.rectangleBlack {
+    background-color: #404040;
+}
+.rectangleLightRed {
+    background-color: #fb636b;
+}
+
+
+
+/*SectionTable*/
+
+.secTable{
+    display: table-row;
+    color: white;
+}
+
+.picArticle {
+    vertical-align: middle;
+}
+.nameArticle {
+    font-family: "OpenSans", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.pArticle{
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.contentSeo {
+    margin-left: 30%;
+}    
+.contentCloud {
+    margin-right: 30%;
+}    
+.seo {
+    background-color: #404040;
+    display: table-cell;
+    width: 25%;
+    padding: 35px 40px 35px 50px;
+    
+}
+.responsive {
+    background-color: #f74c55;
+    display: table-cell;
+    width: 19%;
+    padding: 35px 40px 35px 50px;
+}
+.cloud {
+    background-color: #2d5f3b;
+    display: table-cell;
+    width: 25%;
+    padding: 35px 40px 35px 50px;
+}
+
+div[class^="picPlus"] {
+    width: 35px;
+    height: 32px;
+    font-size: 34px;
+    font-family: "OptimaLT";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.314;
+    float: right;
+}
+
+.picPlusSeo {
+    background-color: #272727;
+    
+}
+
+.picPlusRes {
+    background-color: #c53840;
+
+}
+
+.picPlusClo {
+    background-color: #1c3d25;
+}
+
+.plus
+{
+    position:relative;
+    top:-7px;
+}    
+
+
+/*SectionShip*/
+
+.sectionShip {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    
+}
+
+.ship {
+    color: white;
+    height: 500px;
+    background-image: url(images/imgBlackShip.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.textMusic {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 42px;
+    line-height: 54px;
+}
+.buttonView {
+    font-family: "OpenSans", sans-serif;
+    font-size: 24px;
+    font-weight:bold;
+    color: white;
+    background-color: #1f1b1f;
+    border: white solid 2px;
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+.buttonView:hover {
+    background-color: gray;
+   }
+.palitraShip {
+    height: 9px;
+    background-color: aquamarine;
+    background-image: url(images/palitraShip.png);
+    background-position: right;
+}
+/*Footer*/
+footer {
+    display: table;
+    width: 100%;
+    table-layout: fixed; 
+}
+    
+.tableFooter {
+    display:table-cell;
+    text-align: center;
+    height: 70px;
+    vertical-align: middle;
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;   
+}
+
+
+
+
+
+
+
+
