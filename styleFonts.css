@@ -1,0 +1,17 @@
+@font-face {
+ font-family: "Myriad Pro";
+ src: url("fonts/MYRIADPRO-REGULAR.woff");
+}
+@font-face {
+ font-family: "OpenSans";
+ src: url("fonts/opensanslight.woff");
+}
+@font-face {
+ font-family: "SusaLight";
+ src: url("fonts/Susa-Light.otf");
+}
+@font-face {
+ font-family: "OptimaLT";
+ src: url("fonts/OptimaLTStd Black.otf");
+}
+
