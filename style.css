@@ -3,6 +3,122 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 16px; 
+}
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.main-screen {
+	background-color: #f74c55;
+	background-image: url(images/picSmall.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.main-screen__inner	{
+/*	background-color: deeppink;*/
+	position: relative;
+}
+
+
+/*
+.header__pic {
+	position: relative;
+	width: 600px;
+	height: 600px;
+	z-index: 5;
+}
+*/
+.header__img {
+	position: absolute;
+	top: 0;
+	left: -37%;
+	z-index: 10;
+/*
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+*/
+}
+
+.header__body {
+	position: relative;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+/*	background-color: orange;*/
+}
+.logo {
+    font-family: "SusaLight", fantasy;
+    font-size: 50px;
+	text-decoration: none;
+/*
+    position: absolute;
+    left: 132px;
+    top: 13px;
+*/
+    color: white;
+}
+.header__menu ul{
+	display: flex;
+}
+.header__menu-item {
+	list-style: none;
+}
+.header__menu-item a {
+    font-size: 16px; 
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 20px;	
+}
+.header__menu-item a:hover {
+	font-weight: 700;
+}
+.main-screen__content {
+	padding: 6.77vw 15px 8.07vw;
+/*	background-color: pink;*/
+	max-width: 300px;
+	margin-left: 55%;
+	color: #fff;
+	
+}
+.main-screen__title {	
+	font-size: 40px; 
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.main-screen__subtitle {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.btn {
+	display: inline-block;
+	font-family: "OpenSans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 5px 25px;
+	text-decoration: none;
+}
+.btn:hover {
+	background-color: #fb636b;
+}
+
+
+
+
+
 /*.clearfloat:after {
     content: "";
     display: block;
@@ -13,6 +129,7 @@
    min-width: 800px; 
 }
 /*HEADER*/
+/*
 header {
     background-color: #f74c55;
     color: white;
@@ -87,8 +204,10 @@ h2 {
 #buttonTitle:hover {
     background-color: #fb636b;
 }
+*/
 /*SectionThereAre*/
 
+/*
 .secThereAre {
     font-family: "Myriad Pro", sans-serif;
     width: 65%;
@@ -127,10 +246,12 @@ div[class^="rectangle"] {
     background-color: #fb636b;
 }
 
+*/
 
 
 /*SectionTable*/
 
+/*
 .secTable{
     display: table-row;
     color: white;
@@ -211,10 +332,12 @@ div[class^="picPlus"] {
     position:relative;
     top:-7px;
 }    
+*/
 
 
 /*SectionShip*/
 
+/*
 .sectionShip {
     display: table;
     width: 100%;
@@ -258,7 +381,9 @@ div[class^="picPlus"] {
     background-image: url(images/palitraShip.png);
     background-position: right;
 }
+*/
 /*Footer*/
+/*
 footer {
     display: table;
     width: 100%;
@@ -274,6 +399,7 @@ footer {
     font-size: 16px;   
 }
 
+*/
 
 
 
