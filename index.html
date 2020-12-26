@@ -2,87 +2,109 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>firstSite</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <title>Color</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styleFonts.css">
     </head>
     <body>
-        <div class="allContent">
-        <header>
-                <a href="index.html"><span class="logo">Mw</span></a>
-                
-                <div class="title">
-                        <nav>
-                            <ul>
-                                <li><a href="">The Products</a></li>
-                                <li><a href="">Services</a></li>
-                                <li><a href="">Contact me</a></li>
-                            </ul>
-                        </nav>
-                        <div class="nameSite">
-                            <h1>Join the colors.</h1>
-                            <h2>There are only 3 colors, 10 digits</h2>
-                            <button id="buttonTitle">Join now</button>
-                        </div>       
-                </div>                         
+       
+        <div class="page">
+        <div class="main-screen">
+        <div class="header__bg1"></div>
 
+        <header class="header">
+			<a href="index.html" class="logo">Mw</a>
+			<div class="container">
+				<div class="header__body">        		       		
+					<nav class="header__menu">
+						<ul>
+							<li class="header__menu-item"><a href="">The Products</a></li>
+							<li class="header__menu-item"><a href="">Services</a></li>
+							<li class="header__menu-item"><a href="">Contact me</a></li>
+						</ul>
+					</nav>
+				</div>                         
+			</div>
         </header>
+        
+        <div class="container">
+        	<div class="main-screen__content">
+				<h1 class="main-screen__title">Join the colors.</h1>
+				<h2 class="main-screen__subtitle">There are only 3 colors, 10 digits</h2>
+				<a href="" class="btn">Join now</a>
+       		</div>
+        </div>
+        </div>
+
         <section class="secThereAre">
-                <h2>There are only 3 colors, 10 digits</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <div class="palitra">
-                    <div class="rectangleOrange"></div>
-                    <div class="rectangleDarkRed"></div>
-                    <div class="rectangleGreen"></div>
-                    <div class="rectangleBlack"></div>
-                    <div class="rectangleLightRed"></div>
+            <div class="container">
+            	<div class="secThereAre__cont">
+					<h2 class="secThereAre__title">There are only 3 colors, 10 digits</h2>
+					<p class="secThereAre__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<div class="palitra">
+						<div class="rectangleOrange"></div>
+						<div class="rectangleDarkRed"></div>
+						<div class="rectangleGreen"></div>
+						<div class="rectangleBlack"></div>
+						<div class="rectangleLightRed"></div>
+					</div>
                 </div>
+            </div>
         </section>
-        <section class="secTable">
-            <article class="seo item">
-                <div class="contentSeo">
-                    <div class="logoTable">
-                        <img class="picArticle" src="images/imgSeo.png">
-                        <h2 class="nameArticle">SEO Optimized</h2>
-                    </div>
-                    <p class="pArticle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>     
-                    <div class="picPlusSeo">
-                        <span class="plus">+</span>  
-                    </div>
-                </div>
-            </article>
-            <article class="responsive item">
-                <div class="logoTable">
-                    <img class="picArticle" src="images/imgRes.png">
-                   <h2 class="nameArticle">Responsive</h2>
-                </div>
-                <p class="pArticle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>     
-                <div class="picPlusRes">
-                    <span class="plus">+</span>
-                </div> 
-            </article>     
-            <article class="cloud item">
-                <div class="contentCloud">
-                    <div class="logoTable">
-                        <img class="picArticle" src="images/imgClo.png">
-                        <h2 class="nameArticle">Cloud Services</h2>
-                    </div>
-                    <p class="pArticle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
-                    <div class="picPlusClo">
-                        <span class="plus">+</span>
-                    </div>
-                </div>
-            </article>
-        </section>     
+        
+        <section class="advantages">
+        <div class="container">
+            <div class="advantages__body">
+				<article class="seo advantages__item">
+						<div class="logoTable">
+							<img class="picArticle" src="images/imgSeo.png">
+							<h2 class="nameArticle">SEO Optimized</h2>
+						</div>
+						<p class="pArticle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>     
+						<div class="picPlusSeo advantages__btn">
+							<a href=""><span class="plus">+</span></a> 
+						</div>
+				</article>
+				<article class="responsive advantages__item">
+					<div class="logoTable">
+						<img class="picArticle" src="images/imgRes.png">
+					    <h2 class="nameArticle">Responsive</h2>
+					</div>
+					<p class="pArticle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>     
+					<div class="picPlusRes advantages__btn">
+						<a href=""><span class="plus">+</span></a>
+					</div> 
+				</article>     
+				<article class="cloud advantages__item">
+						<div class="logoTable">
+							<img class="picArticle" src="images/imgClo.png">
+							<h2 class="nameArticle">Cloud Services</h2>
+						</div>
+						<p class="pArticle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make</p>
+						<div class="picPlusClo advantages__btn">
+							<a href=""><span class="plus">+</span></a>
+						</div>
+				</article>
+            </div>
+        </div>
+        </section>      
+                    
         <section class="sectionShip">
-           <div class="ship"> 
-               <p class="textMusic">Music is all of a sudden much<br>more colorful.</p>
-               <button class="buttonView">View more</button>
+            <div class="ship"> 
+				<div class="container">
+			    <div class="ship__content">
+				   <p class="textMusic">Music is all of a sudden much more colorful.</p>
+				   <button class="buttonView">View more</button>
+				</div>
+           		</div>
             </div>
         </section> 
+        
         <div class="palitraShip">
-            </div>
-           <footer>
+            </div>           
+            
+        <footer>
             <div class="tableFooter">
             <p>Copyright © 2013 Css Author</p>
             </div>
