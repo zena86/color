@@ -44,6 +44,11 @@ body {
 	align-items: center;
 	padding: 15px 0;
 }
+@media (max-width : 360px)  {
+	.header__body {
+		justify-content: center;
+	}
+}
 .logo {
     font-family: "SusaLight", fantasy;
     font-size: 50px;
@@ -67,7 +72,8 @@ body {
 @media (max-width : 360px)  {
 	.header__menu ul {
 		flex-direction: row;
-		margin-top: 50px;
+		margin-top: 60px;
+		padding-right: 0;
 	}
 }
 .header__menu-item {
@@ -81,12 +87,22 @@ body {
 		margin-bottom: 0;
 	}
 }
+@media (max-width : 360px)  {
+	.header__menu-item  {
+		margin-bottom: 0;
+	}
+}
 .header__menu-item a {
     font-size: 16px; 
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-left: 20px;	
+}
+@media (max-width : 360px)  {
+	.header__menu-item a  {
+		margin-left: 10px;
+	}
 }
 .header__menu-item a:hover {
 	font-weight: 700;
@@ -287,11 +303,6 @@ div[class^="picPlus"] a {
     display: table-cell;
     text-align: center;
     vertical-align: middle;    
-}
-@media (max-width : 768px)  {
-	.ship {
-		height: 400px;
-	}
 }
 .ship__content {
 	max-width: 530px;
