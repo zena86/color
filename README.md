@@ -1,20 +1,24 @@
-<h1 align="center">Главная страница "Сovid-19"</h1>
+<h1 align="center">Лендинг "Сolor"</h1>
 
-DEMO [Сovid-19](https://zena86.github.io/covid-19/)
+DEMO [Сolor](https://zena86.github.io/color/)
 
-Языки    | Библиотеки |Сервисы     | Инструменты   |Методология|Прочие     |
----------|------------|------------|---------------|-----------|-----------|
-HTML5    |jQuery      |Google Fonts|Brackets       |БЭМ        |CSS flexbox|
-CSS3     |            |Font Awesome|Adobe Photoshop|           |           |
+Языки    | Инструменты   |Прочие     
+---------|---------------|-----------
+HTML5    |Brackets       |CSS flexbox
+CSS3     |Adobe Photoshop|           
 
 
 Адаптивность реализована за счет:
 * медиазапросов
 * гибкости верстки
 
-**1. Полноэкранный (fullscreen) блок**
+![Screenshort](/images/imgreadme/screen-main.png)
+&nbsp;
 
-![Screenshort 1](/images/imgreadme/screen-main.png)
+![Screenshort](/images/imgreadme/screen1.png)
+&nbsp;
+
+![Screenshort](/images/imgreadme/screen2.png)
 &nbsp;
 
 **2. Бургер-меню**
