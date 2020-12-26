@@ -64,6 +64,12 @@ body {
 		flex-direction: column;
 	}
 }
+@media (max-width : 360px)  {
+	.header__menu ul {
+		flex-direction: row;
+		margin-top: 50px;
+	}
+}
 .header__menu-item {
 	list-style: none;
 }

@@ -18,10 +18,6 @@ CSS3     |Adobe Photoshop|
 ![Screenshort](/images/imgreadme/screen1.png)
 &nbsp;
 
-![Screenshort](/images/imgreadme/screen2.png)
-&nbsp;
-
-**2. Бургер-меню**
 
 ![Screenshort 1](/images/imgreadme/screen-mobile1.png)|![Screenshort 1](/images/imgreadme/screen-mobile2.png)
 ------------------------------------------------------|------------------------------------------------------
