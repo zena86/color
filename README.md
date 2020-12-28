@@ -1,4 +1,4 @@
-<h1 align="center">Лендинг "Сolor"</h1>
+<h1 align="center">Главная страница сайта "Сolor"</h1>
 
 DEMO [Сolor](https://zena86.github.io/color/)
 
